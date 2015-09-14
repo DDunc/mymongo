@@ -1,0 +1,34 @@
+{
+  "name": "mymongodb",
+  "description": "CF FS JS mongoDB",
+  "version": "0.1.0",
+  "keywords": "mymongodb",
+  "homepage": "",
+  "license": "MIT",
+  "author": {
+    "name": "Duncan",
+    "email": ""
+  },
+  "readme": "README.md",
+  "files": [
+    "lib",
+    "bin",
+    "*.js"
+  ],
+  "main": "index.js",
+  "bin": {},
+  "directories": {
+    "lib": "lib",
+    "bin": "bin"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "^2.3.2"
+  }
+}
